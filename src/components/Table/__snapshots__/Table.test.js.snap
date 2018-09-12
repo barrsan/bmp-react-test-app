@@ -1,0 +1,1379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component renders with empty props.data renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    columns={
+        Array [
+            Object {
+              "accessor": "name",
+              "header": "Test 1",
+            },
+            Object {
+              "accessor": "organization",
+              "header": "Test 2",
+            },
+          ]
+    }
+    data={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th
+                              width={undefined}
+                    >
+                              <div
+                                        className="table__header-title"
+                              >
+                                        Test 1
+                              </div>
+                    </th>
+                    <th
+                              width={undefined}
+                    >
+                              <div
+                                        className="table__header-title"
+                              >
+                                        Test 2
+                              </div>
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <td>
+                              <div
+                                        className="table__empty-message"
+                              >
+                                        Нет экспонатов
+                              </div>
+                    </td>
+          </tr>
+</tbody>,
+      ],
+      "className": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th
+                        width={undefined}
+            >
+                        <div
+                                    className="table__header-title"
+                        >
+                                    Test 1
+                        </div>
+            </th>
+            <th
+                        width={undefined}
+            >
+                        <div
+                                    className="table__header-title"
+                        >
+                                    Test 2
+                        </div>
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th
+                width={undefined}
+>
+                <div
+                                className="table__header-title"
+                >
+                                Test 1
+                </div>
+</th>,
+              <th
+                width={undefined}
+>
+                <div
+                                className="table__header-title"
+                >
+                                Test 2
+                </div>
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "name",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="table__header-title"
+>
+                    Test 1
+</div>,
+                  undefined,
+                ],
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 1",
+                    "className": "table__header-title",
+                  },
+                  "ref": null,
+                  "rendered": "Test 1",
+                  "type": "div",
+                },
+                undefined,
+              ],
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "organization",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="table__header-title"
+>
+                    Test 2
+</div>,
+                  undefined,
+                ],
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 2",
+                    "className": "table__header-title",
+                  },
+                  "ref": null,
+                  "rendered": "Test 2",
+                  "type": "div",
+                },
+                undefined,
+              ],
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <td>
+                        <div
+                                    className="table__empty-message"
+                        >
+                                    Нет экспонатов
+                        </div>
+            </td>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <td>
+              <div
+                            className="table__empty-message"
+              >
+                            Нет экспонатов
+              </div>
+</td>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="table__empty-message"
+>
+                Нет экспонатов
+</div>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Нет экспонатов",
+                "className": "table__empty-message",
+              },
+              "ref": null,
+              "rendered": "Нет экспонатов",
+              "type": "div",
+            },
+            "type": "td",
+          },
+          "type": "tr",
+        },
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th
+                                    width={undefined}
+                        >
+                                    <div
+                                                className="table__header-title"
+                                    >
+                                                Test 1
+                                    </div>
+                        </th>
+                        <th
+                                    width={undefined}
+                        >
+                                    <div
+                                                className="table__header-title"
+                                    >
+                                                Test 2
+                                    </div>
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <td>
+                                    <div
+                                                className="table__empty-message"
+                                    >
+                                                Нет экспонатов
+                                    </div>
+                        </td>
+            </tr>
+</tbody>,
+        ],
+        "className": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                            width={undefined}
+              >
+                            <div
+                                          className="table__header-title"
+                            >
+                                          Test 1
+                            </div>
+              </th>
+              <th
+                            width={undefined}
+              >
+                            <div
+                                          className="table__header-title"
+                            >
+                                          Test 2
+                            </div>
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  width={undefined}
+>
+                  <div
+                                    className="table__header-title"
+                  >
+                                    Test 1
+                  </div>
+</th>,
+                <th
+                  width={undefined}
+>
+                  <div
+                                    className="table__header-title"
+                  >
+                                    Test 2
+                  </div>
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "name",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="table__header-title"
+>
+                      Test 1
+</div>,
+                    undefined,
+                  ],
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Test 1",
+                      "className": "table__header-title",
+                    },
+                    "ref": null,
+                    "rendered": "Test 1",
+                    "type": "div",
+                  },
+                  undefined,
+                ],
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "organization",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="table__header-title"
+>
+                      Test 2
+</div>,
+                    undefined,
+                  ],
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Test 2",
+                      "className": "table__header-title",
+                    },
+                    "ref": null,
+                    "rendered": "Test 2",
+                    "type": "div",
+                  },
+                  undefined,
+                ],
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <td>
+                            <div
+                                          className="table__empty-message"
+                            >
+                                          Нет экспонатов
+                            </div>
+              </td>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <td>
+                <div
+                                className="table__empty-message"
+                >
+                                Нет экспонатов
+                </div>
+</td>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="table__empty-message"
+>
+                  Нет экспонатов
+</div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Нет экспонатов",
+                  "className": "table__empty-message",
+                },
+                "ref": null,
+                "rendered": "Нет экспонатов",
+                "type": "div",
+              },
+              "type": "td",
+            },
+            "type": "tr",
+          },
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Table component renders with not empty props.data renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    columns={
+        Array [
+            Object {
+              "accessor": "name",
+              "header": "Test 1",
+            },
+            Object {
+              "accessor": "organization",
+              "header": "Test 2",
+            },
+            Object {
+              "accessor": "place",
+              "filterComponent": <FilterComponent />,
+              "header": "Test 3",
+            },
+          ]
+    }
+    data={
+        Array [
+            Object {
+              "name": "Test name 1",
+              "uuid": "1",
+            },
+            Object {
+              "name": "Test name 2",
+              "uuid": "2",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th
+                              width={undefined}
+                    >
+                              <div
+                                        className="table__header-title"
+                              >
+                                        Test 1
+                              </div>
+                    </th>
+                    <th
+                              width={undefined}
+                    >
+                              <div
+                                        className="table__header-title"
+                              >
+                                        Test 2
+                              </div>
+                    </th>
+                    <th
+                              width={undefined}
+                    >
+                              <div
+                                        className="table__header-title"
+                              >
+                                        Test 3
+                              </div>
+                              <FilterComponent />
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <TableRow
+                    description=""
+                    name="Test name 1"
+                    organization=""
+                    place=""
+                    scheme={
+                              Array [
+                                        Object {
+                                          "accessor": "name",
+                                          "header": "Test 1",
+                                        },
+                                        Object {
+                                          "accessor": "organization",
+                                          "header": "Test 2",
+                                        },
+                                        Object {
+                                          "accessor": "place",
+                                          "filterComponent": <FilterComponent />,
+                                          "header": "Test 3",
+                                        },
+                                      ]
+                    }
+          />
+          <TableRow
+                    description=""
+                    name="Test name 2"
+                    organization=""
+                    place=""
+                    scheme={
+                              Array [
+                                        Object {
+                                          "accessor": "name",
+                                          "header": "Test 1",
+                                        },
+                                        Object {
+                                          "accessor": "organization",
+                                          "header": "Test 2",
+                                        },
+                                        Object {
+                                          "accessor": "place",
+                                          "filterComponent": <FilterComponent />,
+                                          "header": "Test 3",
+                                        },
+                                      ]
+                    }
+          />
+</tbody>,
+      ],
+      "className": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th
+                        width={undefined}
+            >
+                        <div
+                                    className="table__header-title"
+                        >
+                                    Test 1
+                        </div>
+            </th>
+            <th
+                        width={undefined}
+            >
+                        <div
+                                    className="table__header-title"
+                        >
+                                    Test 2
+                        </div>
+            </th>
+            <th
+                        width={undefined}
+            >
+                        <div
+                                    className="table__header-title"
+                        >
+                                    Test 3
+                        </div>
+                        <FilterComponent />
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th
+                width={undefined}
+>
+                <div
+                                className="table__header-title"
+                >
+                                Test 1
+                </div>
+</th>,
+              <th
+                width={undefined}
+>
+                <div
+                                className="table__header-title"
+                >
+                                Test 2
+                </div>
+</th>,
+              <th
+                width={undefined}
+>
+                <div
+                                className="table__header-title"
+                >
+                                Test 3
+                </div>
+                <FilterComponent />
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "name",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="table__header-title"
+>
+                    Test 1
+</div>,
+                  undefined,
+                ],
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 1",
+                    "className": "table__header-title",
+                  },
+                  "ref": null,
+                  "rendered": "Test 1",
+                  "type": "div",
+                },
+                undefined,
+              ],
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "organization",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="table__header-title"
+>
+                    Test 2
+</div>,
+                  undefined,
+                ],
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 2",
+                    "className": "table__header-title",
+                  },
+                  "ref": null,
+                  "rendered": "Test 2",
+                  "type": "div",
+                },
+                undefined,
+              ],
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "place",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="table__header-title"
+>
+                    Test 3
+</div>,
+                  <FilterComponent />,
+                ],
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 3",
+                    "className": "table__header-title",
+                  },
+                  "ref": null,
+                  "rendered": "Test 3",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TableRow
+              description=""
+              name="Test name 1"
+              organization=""
+              place=""
+              scheme={
+                            Array [
+                                          Object {
+                                            "accessor": "name",
+                                            "header": "Test 1",
+                                          },
+                                          Object {
+                                            "accessor": "organization",
+                                            "header": "Test 2",
+                                          },
+                                          Object {
+                                            "accessor": "place",
+                                            "filterComponent": <FilterComponent />,
+                                            "header": "Test 3",
+                                          },
+                                        ]
+              }
+/>,
+            <TableRow
+              description=""
+              name="Test name 2"
+              organization=""
+              place=""
+              scheme={
+                            Array [
+                                          Object {
+                                            "accessor": "name",
+                                            "header": "Test 1",
+                                          },
+                                          Object {
+                                            "accessor": "organization",
+                                            "header": "Test 2",
+                                          },
+                                          Object {
+                                            "accessor": "place",
+                                            "filterComponent": <FilterComponent />,
+                                            "header": "Test 3",
+                                          },
+                                        ]
+              }
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "description": "",
+              "name": "Test name 1",
+              "organization": "",
+              "place": "",
+              "scheme": Array [
+                Object {
+                  "accessor": "name",
+                  "header": "Test 1",
+                },
+                Object {
+                  "accessor": "organization",
+                  "header": "Test 2",
+                },
+                Object {
+                  "accessor": "place",
+                  "filterComponent": <FilterComponent />,
+                  "header": "Test 3",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "description": "",
+              "name": "Test name 2",
+              "organization": "",
+              "place": "",
+              "scheme": Array [
+                Object {
+                  "accessor": "name",
+                  "header": "Test 1",
+                },
+                Object {
+                  "accessor": "organization",
+                  "header": "Test 2",
+                },
+                Object {
+                  "accessor": "place",
+                  "filterComponent": <FilterComponent />,
+                  "header": "Test 3",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th
+                                    width={undefined}
+                        >
+                                    <div
+                                                className="table__header-title"
+                                    >
+                                                Test 1
+                                    </div>
+                        </th>
+                        <th
+                                    width={undefined}
+                        >
+                                    <div
+                                                className="table__header-title"
+                                    >
+                                                Test 2
+                                    </div>
+                        </th>
+                        <th
+                                    width={undefined}
+                        >
+                                    <div
+                                                className="table__header-title"
+                                    >
+                                                Test 3
+                                    </div>
+                                    <FilterComponent />
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <TableRow
+                        description=""
+                        name="Test name 1"
+                        organization=""
+                        place=""
+                        scheme={
+                                    Array [
+                                                Object {
+                                                  "accessor": "name",
+                                                  "header": "Test 1",
+                                                },
+                                                Object {
+                                                  "accessor": "organization",
+                                                  "header": "Test 2",
+                                                },
+                                                Object {
+                                                  "accessor": "place",
+                                                  "filterComponent": <FilterComponent />,
+                                                  "header": "Test 3",
+                                                },
+                                              ]
+                        }
+            />
+            <TableRow
+                        description=""
+                        name="Test name 2"
+                        organization=""
+                        place=""
+                        scheme={
+                                    Array [
+                                                Object {
+                                                  "accessor": "name",
+                                                  "header": "Test 1",
+                                                },
+                                                Object {
+                                                  "accessor": "organization",
+                                                  "header": "Test 2",
+                                                },
+                                                Object {
+                                                  "accessor": "place",
+                                                  "filterComponent": <FilterComponent />,
+                                                  "header": "Test 3",
+                                                },
+                                              ]
+                        }
+            />
+</tbody>,
+        ],
+        "className": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                            width={undefined}
+              >
+                            <div
+                                          className="table__header-title"
+                            >
+                                          Test 1
+                            </div>
+              </th>
+              <th
+                            width={undefined}
+              >
+                            <div
+                                          className="table__header-title"
+                            >
+                                          Test 2
+                            </div>
+              </th>
+              <th
+                            width={undefined}
+              >
+                            <div
+                                          className="table__header-title"
+                            >
+                                          Test 3
+                            </div>
+                            <FilterComponent />
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  width={undefined}
+>
+                  <div
+                                    className="table__header-title"
+                  >
+                                    Test 1
+                  </div>
+</th>,
+                <th
+                  width={undefined}
+>
+                  <div
+                                    className="table__header-title"
+                  >
+                                    Test 2
+                  </div>
+</th>,
+                <th
+                  width={undefined}
+>
+                  <div
+                                    className="table__header-title"
+                  >
+                                    Test 3
+                  </div>
+                  <FilterComponent />
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "name",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="table__header-title"
+>
+                      Test 1
+</div>,
+                    undefined,
+                  ],
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Test 1",
+                      "className": "table__header-title",
+                    },
+                    "ref": null,
+                    "rendered": "Test 1",
+                    "type": "div",
+                  },
+                  undefined,
+                ],
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "organization",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="table__header-title"
+>
+                      Test 2
+</div>,
+                    undefined,
+                  ],
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Test 2",
+                      "className": "table__header-title",
+                    },
+                    "ref": null,
+                    "rendered": "Test 2",
+                    "type": "div",
+                  },
+                  undefined,
+                ],
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "place",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="table__header-title"
+>
+                      Test 3
+</div>,
+                    <FilterComponent />,
+                  ],
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Test 3",
+                      "className": "table__header-title",
+                    },
+                    "ref": null,
+                    "rendered": "Test 3",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TableRow
+                description=""
+                name="Test name 1"
+                organization=""
+                place=""
+                scheme={
+                                Array [
+                                                Object {
+                                                  "accessor": "name",
+                                                  "header": "Test 1",
+                                                },
+                                                Object {
+                                                  "accessor": "organization",
+                                                  "header": "Test 2",
+                                                },
+                                                Object {
+                                                  "accessor": "place",
+                                                  "filterComponent": <FilterComponent />,
+                                                  "header": "Test 3",
+                                                },
+                                              ]
+                }
+/>,
+              <TableRow
+                description=""
+                name="Test name 2"
+                organization=""
+                place=""
+                scheme={
+                                Array [
+                                                Object {
+                                                  "accessor": "name",
+                                                  "header": "Test 1",
+                                                },
+                                                Object {
+                                                  "accessor": "organization",
+                                                  "header": "Test 2",
+                                                },
+                                                Object {
+                                                  "accessor": "place",
+                                                  "filterComponent": <FilterComponent />,
+                                                  "header": "Test 3",
+                                                },
+                                              ]
+                }
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "description": "",
+                "name": "Test name 1",
+                "organization": "",
+                "place": "",
+                "scheme": Array [
+                  Object {
+                    "accessor": "name",
+                    "header": "Test 1",
+                  },
+                  Object {
+                    "accessor": "organization",
+                    "header": "Test 2",
+                  },
+                  Object {
+                    "accessor": "place",
+                    "filterComponent": <FilterComponent />,
+                    "header": "Test 3",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "description": "",
+                "name": "Test name 2",
+                "organization": "",
+                "place": "",
+                "scheme": Array [
+                  Object {
+                    "accessor": "name",
+                    "header": "Test 1",
+                  },
+                  Object {
+                    "accessor": "organization",
+                    "header": "Test 2",
+                  },
+                  Object {
+                    "accessor": "place",
+                    "filterComponent": <FilterComponent />,
+                    "header": "Test 3",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

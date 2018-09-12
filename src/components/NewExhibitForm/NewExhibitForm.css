@@ -1,0 +1,15 @@
+.form-container {
+  padding: 20px;
+}
+
+.form {
+  padding: 20px 0;
+}
+
+.form-control_error {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  display: block;
+}

@@ -1,0 +1,8 @@
+.navigation {
+  padding: 10px;
+}
+
+.nav-link.active {
+  background-color: gainsboro;
+  border-radius: 10px;
+}
