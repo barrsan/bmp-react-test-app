@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { throttle } from 'throttle-debounce';
+import { debounce } from 'throttle-debounce';
 
 
 class SearchForm extends PureComponent {
@@ -13,7 +13,7 @@ class SearchForm extends PureComponent {
     this.state = {
       value: '',
     };
-    this.searchThrottled = throttle(500, this.search);
+    this.searchDebounced = debounce(500, this.search);
   }
 
   search = (searchString) => {
@@ -29,7 +29,7 @@ class SearchForm extends PureComponent {
       { ...prevState, value: e.target.value }
     ), () => {
       const { value } = this.state;
-      this.searchThrottled(value);
+      this.searchDebounced(value);
     });
   }
 
