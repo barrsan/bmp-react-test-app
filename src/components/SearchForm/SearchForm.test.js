@@ -42,7 +42,9 @@ describe('SearchForm component', () => {
     });
 
     test('calls the props.setSearchString', () => {
-      expect(mockSetSearchString).toBeCalled();
+      setTimeout(() => {
+        expect(mockSetSearchString).toBeCalled();
+      }, 500);
     });
   });
 
