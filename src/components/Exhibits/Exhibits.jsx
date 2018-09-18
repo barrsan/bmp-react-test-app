@@ -70,10 +70,16 @@ const Exhibits = ({
         columns={columns}
         data={items}
       />
-      <Pagination
-        currentPage={currentPage}
-        pagesNumber={pagesNumber}
-      />
+      {
+        items && items.length
+          ? (
+            <Pagination
+              currentPage={currentPage}
+              pagesNumber={pagesNumber}
+            />
+          )
+          : null
+      }
     </div>
   );
 };

@@ -35,7 +35,7 @@ const Table = ({
     </thead>
     <tbody>
       {
-        data.length
+        data && data.length
           ? data.map(i => (
             <TableRow
               key={i.uuid}

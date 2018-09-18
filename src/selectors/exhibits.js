@@ -65,10 +65,10 @@ const exhibitsCurrentPageSelector = createSelector(
       if (search.indexOf('page=') !== -1) {
         const params = search.substr(1).split('&');
         const page = params.find(i => i.startsWith('page=')).split('=')[1];
-        currentPage = parseInt(page, 10);
+        currentPage = Number(page);
       }
 
-      return currentPage;
+      return currentPage || 0;
     }
 
     return 0;

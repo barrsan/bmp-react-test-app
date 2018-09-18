@@ -5,6 +5,7 @@ import Exhibits from './Exhibits';
 
 describe('Exhibits component', () => {
   const props = {
+    items: [1, 2, 3],
     setExhibitsFilter: () => {},
     setExhibitsSearchString: () => {},
   };

@@ -6,7 +6,13 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Exhibits
     currentPage={0}
     filterData={Array []}
-    items={Array []}
+    items={
+        Array [
+            1,
+            2,
+            3,
+          ]
+    }
     setExhibitsFilter={[Function]}
     setExhibitsSearchString={[Function]}
 />,
@@ -60,7 +66,13 @@ ShallowWrapper {
                               },
                             ]
           }
-          data={Array []}
+          data={
+                    Array [
+                              1,
+                              2,
+                              3,
+                            ]
+          }
 />,
         <Pagination
           currentPage={0}
@@ -125,7 +137,11 @@ ShallowWrapper {
               "width": "",
             },
           ],
-          "data": Array [],
+          "data": Array [
+            1,
+            2,
+            3,
+          ],
         },
         "ref": null,
         "rendered": null,
@@ -189,7 +205,13 @@ ShallowWrapper {
                                     },
                                   ]
             }
-            data={Array []}
+            data={
+                        Array [
+                                    1,
+                                    2,
+                                    3,
+                                  ]
+            }
 />,
           <Pagination
             currentPage={0}
@@ -254,7 +276,11 @@ ShallowWrapper {
                 "width": "",
               },
             ],
-            "data": Array [],
+            "data": Array [
+              1,
+              2,
+              3,
+            ],
           },
           "ref": null,
           "rendered": null,
